@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+* {
+  font-family: "Montserrat";
+}
+
+:root {
+  /* headings */
+  --h1-home-size: 60px;
+  --h1-size: 40px;
+  --h2-size: 25px;
+  --h3-size: 20px;
+  --h4-size: 22px;
+  --h5-size: 16px;
+  --h6-size: 16px;
+  /* paragraphs */
+  --para1-size: 18px;
+  --para2-size: 16px;
+  --para3-size: 14px;
+  --para4-size: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+  :root {
+    /* headings */
+    --h1-home-size: 40px;
+    --h1-size: 30px;
+    --h2-size: 20px;
+    --h3-size: 17px;
+    --h4-size: 16px;
+    --h5-size: 16px;
+    --h6-size: 16px;
+    /* paragraphs */
+    --para1-size: 15px;
+    --para2-size: 14px;
+    --para3-size: 13px;
+    --para4-size: 18px;
+  }
+  .first {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .second {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+/* headings */
+/* paragraphs */
+/* colors */
+html {
+  scroll-behavior: smooth;
+}
+
+/* scroll bar styling */
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #1e9bf8;
+}
+
+/* end of scroll bar styling */
+.clean-a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.99;
+}
+
+a {
+  color: inherit;
+  -webkit-transition: 0.3;
+  transition: 0.3;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.table-pagination svg {
+  height: 20px;
+}
+
+.menu-item-container {
+  margin: 50px 10px;
+}
+
+.menu-item-container .image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.single-menu-item-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */

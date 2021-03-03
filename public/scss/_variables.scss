@@ -1,0 +1,65 @@
+:root {
+   /* headings */
+   --h1-home-size: 60px;
+   --h1-size: 40px;
+   --h2-size: 25px;
+   --h3-size: 20px;
+   --h4-size: 22px;
+   --h5-size: 16px;
+   --h6-size: 16px;
+
+   /* paragraphs */
+   --para1-size: 18px;
+   --para2-size: 16px;
+   --para3-size: 14px;
+   --para4-size: 24px;
+}
+@media only screen and (max-width: 992px) {
+   :root {
+      /* headings */
+      --h1-home-size: 40px;
+      --h1-size: 30px;
+      --h2-size: 20px;
+      --h3-size: 17px;
+      --h4-size: 16px;
+      --h5-size: 16px;
+      --h6-size: 16px;
+      /* paragraphs */
+      --para1-size: 15px;
+      --para2-size: 14px;
+      --para3-size: 13px;
+      --para4-size: 18px;
+   }
+   .first {
+      order: 1;
+   }
+   .second {
+      order: 2;
+   }
+}
+/* headings */
+
+$h1Home: var(--h1-home-size);
+$h1S: var(--h1-size);
+$h2S: var(--h2-size);
+$h3S: var(--h3-size);
+$h4S: var(--h4-size);
+$h5S: var(--h5-size);
+$h6S: var(--h6-size);
+/* paragraphs */
+$p1S: var(--para1-size);
+$p2S: var(--para2-size);
+$p3S: var(--para3-size);
+$p4S: var(--para4-size);
+/* colors */
+$menuColor: #93b2d8;
+$cPrimary: #1e9bf8;
+$cPrimaryDark: #051357;
+$cPrimaryLight: #1f5b94;
+$cPrimaryLighter: #1f5b948c;
+$cSecond: #62deae;
+$cSecondLight: #e2f2c6;
+$cSecondLighter: #f4f9ff;
+$cDark: #212524;
+$cDarkLight: #aeb7b3;
+$cWhite: #ffffff;
